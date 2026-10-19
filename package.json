@@ -1,0 +1,18 @@
+{
+  "name": "web-demo-recorder",
+  "version": "1.0.0",
+  "description": "Record clean web walkthrough videos (1080x1920 portrait or 1920x1080) from a JSON step file, in a fresh browser with no personal data.",
+  "main": "record.cjs",
+  "scripts": {
+    "record": "node record.cjs",
+    "test": "node --test test/record.test.cjs"
+  },
+  "keywords": ["playwright", "screen-recording", "demo-video", "reels", "claude-code"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "1.59.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cookie_test",
+  "viewport": "phone",
+  "url": "cookie_test.html",
+  "blur": [".email", "##壞掉的selector"],
+  "steps": [
+    { "click": "按我" },
+    { "type": { "selector": "#q", "text": "hello 測試" } },
+    { "scroll": 600 },
+    { "wait": 500 }
+  ]
+}

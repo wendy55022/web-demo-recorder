@@ -1,0 +1,12 @@
+{
+  "name": "photocraft_phone",
+  "viewport": "phone",
+  "url": "https://wendyai.net/tools/photocraft/",
+  "steps": [
+    { "wait": 800 },
+    { "scrollTo": "怎麼開始", "ms": 3500 },
+    { "wait": 2000 },
+    { "scrollTo": "figure.shot", "ms": 4000, "offset": 60 },
+    { "wait": 2500 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "photocraft_desktop",
+  "viewport": "desktop",
+  "url": "https://wendyai.net/tools/photocraft/",
+  "steps": [
+    { "hover": "h1" },
+    { "scrollTo": "怎麼開始", "ms": 2500 },
+    { "wait": 1500 },
+    { "click": "getartcraft.com/apps/photocraft", "after": 600 },
+    { "wait": 1000 }
+  ]
+}
